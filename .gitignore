@@ -1,1 +1,25 @@
 .env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/invoice-app/node_modules
+/invoice-app/.pnp
+/invoice-app/.pnp.js
+
+# testing
+/invoice-app/coverage
+
+# production
+/invoice-app/build
+
+# misc
+/invoice-app/.DS_Store
+/invoice-app/.env.local
+/invoice-app/.env.development.local
+/invoice-app/.env.test.local
+/invoice-app/.env.production.local
+
+/invoice-app/npm-debug.log*
+/invoice-app/yarn-debug.log*
+/invoice-app/yarn-error.log*
